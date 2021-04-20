@@ -13,6 +13,7 @@ export default function formContact() {
         input.insertAdjacentElement("afterend", $span)
     })
 
+    //Validation when we click in the event submit
     document.addEventListener("click", e => {
         // Click en el submit del formulario
         if (e.target === $formContacto.button) {

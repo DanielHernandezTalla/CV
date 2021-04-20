@@ -42,7 +42,12 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Header */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Header
+    //Header of CV
+    ///////////////////////////////////////////////////////////
+*/
 .header-content {
     position: relative;
     width: 100%;
@@ -105,6 +110,12 @@ html {
     border-bottom: 4px solid var(--color-blue);
 }
 
+/* 
+    ///////////////////////////////////////////////////////////
+    //Nav
+    //Nav of CV
+    ///////////////////////////////////////////////////////////
+*/
 .nav {
     position: fixed;
     top: 0;
@@ -128,6 +139,7 @@ html {
 
 }
 
+/* Hidden the nav */
 .nav__a-opacity {
     opacity: 0;
     visibility: hidden;
@@ -151,18 +163,16 @@ html {
     margin-bottom: 1rem;
 }
 
-.nav__as {
+.nav__div {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    /* background: red; */
 }
 
 .nav__a {
     text-decoration: none;
     font-family: 'monserrat-Regular', sans-serif;
     color: var(--color-blue-dark);
-    /* color: var(--color-blue-ligth); */
     width: 100%;
     padding: 1rem;
     text-align: center;
@@ -195,7 +205,6 @@ html {
     right: 10px;
     border-radius: 50%;
     padding: .6rem;
-    /* background: transparent; */
     background: white;
     display: flex;
     font-size: 24px;
@@ -212,6 +221,7 @@ html {
     color: var(--color-marron);
 }
 
+/* Queries of nav */
 @media (min-width: 1024px) {
     .nav__button {
         display: none;
@@ -221,7 +231,6 @@ html {
         padding: 0 50px;
         height: 64px;
         top: 0;
-        /* background-color: transparent; */
         background-color: var(--color-blue-dark);
         display: flex;
         flex-direction: row;
@@ -246,23 +255,14 @@ html {
         color: white;
     }
 
-    .nav__as {
+    .nav__div {
         width: auto;
         flex-direction: row;
     }
 
     .nav__a {
-        width: auto;
         display: flex;
         color: var(--color-mode-black);
-        font-size: 16px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .nav__a {
-        text-align: left;
-        padding-left: 2rem;
     }
 
     .nav__a-opacity {
@@ -271,7 +271,12 @@ html {
     }
 }
 
-/* Section */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Section
+    //Section of CV General
+    ///////////////////////////////////////////////////////////
+*/
 .section {
     max-width: 1200px;
     width: 100%;
@@ -334,14 +339,19 @@ html {
     list-style: none;
 }
 
-/* small */
+/* It Help whit length text, how a email */
 @media (max-width: 380px) {
     .small {
         font-size: 0.75rem;
     }
 }
 
-/* Portfolio */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Section
+    //Section of CV Portfolio
+    ///////////////////////////////////////////////////////////
+*/
 .portfolio__li {
     display: flex;
 }
@@ -356,7 +366,12 @@ html {
     line-height: 1.6rem;
 }
 
-/* Contacto */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Section
+    //Section of CV contact-data
+    ///////////////////////////////////////////////////////////
+*/
 .contact-data {
     width: 100%;
     margin-top: 1rem;
@@ -428,7 +443,12 @@ html {
     color: var(--color-mode-black);
 }
 
-/* contact-mail */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Section
+    //Section of CV contact-mail
+    ///////////////////////////////////////////////////////////
+*/
 .contact-mail {
     width: 100%;
     display: flex;
@@ -495,7 +515,6 @@ html {
     padding: 1rem;
     font-family: 'Montserrat-Regular', sans-serif;
     font-size: 1rem;
-    /* background-color: var(--color-blue-dark); */
     color: white;
     background-color: var(--color-blue-ligth);
     /* color: var(--color-blue-dark); */
@@ -507,7 +526,6 @@ html {
 }
 
 .contact-mail__submit:active {
-    /* color: var(--color-blue-ligth); */
     background-color: var(--color-blue);
 }
 
@@ -518,7 +536,12 @@ html {
     }
 }
 
-/* Footer */
+/* 
+    ///////////////////////////////////////////////////////////
+    //Footer
+    //Footer of CV 
+    ///////////////////////////////////////////////////////////
+*/
 .footer {
     background-color: var(--color-blue-dark);
     padding: 1rem;

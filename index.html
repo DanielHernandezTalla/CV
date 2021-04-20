@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/png" href="/assets/icon.png" />
+    <title>CV</title>
+    <link rel="icon" type="image/png" href="/assets/cuadrado.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -14,11 +14,11 @@
 
 <body>
 
+    <!-- Header of CV-->
     <header class=" ">
         <div class="header-content">
             <div class="header-image">
                 <img class="img-1" src="assets/background.jpg" alt="">
-
                 <img class="img-2" src="assets/me.png" alt="">
             </div>
             <h1 class="h1">Daniel Hernandez Talla</h1>
@@ -26,14 +26,11 @@
         </div>
     </header>
 
+    <!-- Nav of CV -->
     <nav id="nav" class="nav nav__a-opacity">
-        <!-- <div class=""> -->
         <a class="nav__logo" href="#"><img class="nav__img" src="./assets/icon.png" alt="">
             <span class="nav__span">DanyHT</span></a>
-        <!-- </div> -->
-        <div class="nav__as">
-            <!-- <a class="nav__a" href="#"><i class="nav__i fas fa-home"></i>Home</a> -->
-            <!-- nav__a-select -->
+        <div class="nav__div">
             <a class="nav__a" href="#about"><i class="nav__i fas fa-user"></i>Acerca</a>
             <a class="nav__a" href="#education"><i class="nav__i fas fa-file"></i>Education</a>
             <a class="nav__a" href="#tecnologi"><i class="nav__i fas fa-file"></i>Tecnologias</a>
@@ -43,10 +40,12 @@
         </div>
     </nav>
 
+    <!-- Button nav, that it is use for show the nav, is fixed -->
     <button id="nav-button" class="nav__button"><i class="fas fa-bars"></i></button>
-    <!-- <i class="fas fa-times"></i> -->
 
+    <!-- The main of page -->
     <main class=" ">
+        <!-- Section about me -->
         <section id="about" class="section about">
             <h2 class="section__h2">Acerca</h2>
             <img class="section__img" src="./meSmall2.png" alt="">
@@ -68,6 +67,7 @@
                 y no lo cambiaria por nada.</p>
         </section>
 
+        <!-- Section of my education -->
         <section id="education" class="section education">
             <h2 class="section__h2">Educacion</h2>
             <ul class="section__ul">
@@ -84,6 +84,7 @@
             </ul>
         </section>
 
+        <!-- Section the technologies that I know -->
         <section id="tecnologi" class="section tecnologi">
             <h2 class="section__h2">Tecnologias</h2>
             <ul class="section__ul">
@@ -96,6 +97,7 @@
             </ul>
         </section>
 
+        <!-- Section of my skills -->
         <section id="skills" class="section skills">
             <h2 class="section__h2">Habilidas</h2>
             <ul class="section__ul">
@@ -106,6 +108,7 @@
             </ul>
         </section>
 
+        <!-- Section of my portfolio -->
         <section id="portfolio" class="section portfolio">
             <h2 class="section__h2">Portafolio</h2>
             <ul class="section__ul">
@@ -120,8 +123,10 @@
             </ul>
         </section>
 
+        <!-- Section of contact -->
         <section id="contact" class="section contact">
             <h2 class="section__h2">Contacto</h2>
+            <!-- My contact details -->
             <section class="contact-data">
                 <div class="contact-data__div">
                     <i class="contact-data__i fas fa-home"></i>
@@ -152,6 +157,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Form of contact -->
             <form id="contact-mail" class="contact-mail">
                 <div class="contact-mail__div">
                     <input class="contact-mail__input" name="name" type="text" placeholder="Ingresa tu nombre"
@@ -167,6 +173,7 @@
                         placeholder="Escribe un message" title="Escribe un mensaje" data-pattern="^.{1,255}$"
                         required></textarea>
                     <!-- <span class="contact-mail__error">Error:</span> -->
+                    <!-- Span that helps in the errors -->
                 </div>
                 <input class="contact-mail__submit" type="submit" name="button">
             </form>

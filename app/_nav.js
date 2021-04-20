@@ -3,6 +3,7 @@ export default function functionNav() {
     const $nav = document.getElementById("nav"),
         $navButton = document.getElementById("nav-button")
 
+    // Add event for click in nav-button
     document.addEventListener("click", e => {
         // Click para aparecer y desaparecer el nav
         if (e.target.matches("#nav-button") || e.target.matches("#nav-button *")) {
