@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", e => {
 
     functionNav()
 
-    formContact()
+    // formContact()
 
 })

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'monserrat-extraBold';
     src: url(font/Montserrat-ExtraBold.ttf);
 }
@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'monserrat-Light';
     src: url(font/Montserrat-Light.ttf);
-}
+} */
 
 :root {
     --color-blue: #1B81A8;
