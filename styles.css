@@ -180,6 +180,10 @@ html {
     transition: all .3s ease;
 }
 
+.nav__a-selected{
+    color: var(--color-marron);
+}
+
 .nav__i {
     margin-right: 10px;
 }
@@ -263,6 +267,10 @@ html {
     .nav__a {
         display: flex;
         color: var(--color-mode-black);
+    }
+
+    .nav__a-selected{
+        color: var(--color-marron);
     }
 
     .nav__a-opacity {
@@ -681,4 +689,90 @@ html {
     font-family: 'monserrat-Regular', sans-serif;
     font-size: 14px;
     color: var(--color-mode-black);
+}
+
+/* 
+    ///////////////////////////////////////////////////////////
+    //Header
+    //Header of Projects
+    ///////////////////////////////////////////////////////////
+*/
+/* ---------------- Header ---------------- */
+.project-header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--color-mode-black);
+    box-shadow: 1px 0px 1px #1C1E2C;
+}
+
+.content-title{
+    background-color: var(--color-blue-dark);
+    color: var(--color-mode-black);
+}
+
+.project-title{ 
+    line-height: 64px;
+    text-align: center;
+    font-family: 'monserrat-extraBold', sans-serif;
+}
+
+/* ---------------- Nav ---------------- */
+.project-nav{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.project-link{
+    font-size: 1.5rem;
+    color: var(--color-blue-dark);
+    transition: all .3s ease;
+}
+
+.project-link:hover{
+    color: var(--color-marron);
+}
+
+.project-button-close{
+    *outline: none;
+    *border: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color:red;
+    color: var(--color-mode-black);
+    text-align: center;
+    transition: all .3s ease;
+    *cursor: pointer;
+}
+
+.project-button-close:active{
+    transform: scale(1.1);
+}
+
+/* ---------------- Main ---------------- */
+.project-main{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    padding-top: 139px;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* padding: 1rem; */
 }

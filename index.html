@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Daniel Hernandez</title>
     <link rel="icon" type="ico" href="assets/icon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -31,17 +31,17 @@
         <a class="nav__logo" href="#"><img class="nav__img" src="https://res.cloudinary.com/danielhdz/image/upload/v1659562388/CV/icon_bnd0lt.png" alt="">
             <span class="nav__span">DanyHT</span></a>
         <div class="nav__div">
-            <a class="nav__a" href="#about">
+            <a class="nav__a" href="#about" data-scroll-spy>
                 <!--<i class="nav__i fas fa-user"></i>-->Acerca</a>
-            <a class="nav__a" href="#education">
+            <a class="nav__a" href="#education" data-scroll-spy>
                 <!--<i class="nav__i fas fa-file"></i>-->Educación</a>
-            <a class="nav__a" href="#tecnology">
+            <a class="nav__a" href="#tecnology" data-scroll-spy>
                 <!--<i class="nav__i fas fa-file"></i>-->Tecnologías</a>
-            <a class="nav__a" href="#skills">
+            <a class="nav__a" href="#skills" data-scroll-spy>
                 <!--<i class="nav__i fas fa-file"></i>-->Habilidades</a>
-            <a class="nav__a" href="#portfolio">
+            <a class="nav__a" href="#portfolio" data-scroll-spy>
                 <!--<i class="nav__i fas fa-address-book"></i>-->Portafolio</a>
-            <a class="nav__a" href="#contact">
+            <a class="nav__a" href="#contact" data-scroll-spy>
                 <!--<i class="nav__i fas fa-home"></i>-->Contacto</a>
         </div>
     </nav>
@@ -52,7 +52,7 @@
     <!-- The main of page -->
     <main class=" ">
         <!-- Section about me -->
-        <section id="about" class="section about">
+        <section id="about" class="section about" data-scroll-spy>
             <h2 class="section__h2">Acerca</h2>
             <!-- <img class="section__img" src="./assets/.png" alt=""> -->
             <ul class="section__ul">
@@ -71,7 +71,7 @@
         </section>
 
         <!-- Section of my education -->
-        <section id="education" class="section education">
+        <section id="education" class="section education" data-scroll-spy>
             <h2 class="section__h2">Educación</h2>
             <ul class="section__ul">
                 <li class="section__li">2016 - 2019 <br>
@@ -89,7 +89,7 @@
         </section>
 
         <!-- Section the technologies that I know -->
-        <section id="tecnology" class="section tecnologi">
+        <section id="tecnology" class="section tecnologi" data-scroll-spy>
             <h2 class="section__h2">Tecnologías</h2>
             <ul class="section__ul">
                 <li class="section__li">HTML</li>
@@ -104,7 +104,7 @@
         </section>
 
         <!-- Section of my skills -->
-        <section id="skills" class="section skills">
+        <section id="skills" class="section skills" data-scroll-spy>
             <h2 class="section__h2">Habilidades</h2>
             <ul class="section__ul">
                 <li class="section__li">Desarrollo web con HTML, CSS y JavaScript </li>
@@ -116,9 +116,10 @@
         </section>
 
         <!-- Section of my portfolio -->
-        <section id="portfolio" class="section portfolio">
+        <section id="portfolio" class="section portfolio" data-scroll-spy>
             <h2 class="section__h2">Portafolio</h2>
             <section class="section-slide">
+
                 <a href="https://github.com/DanielHernandezTalla/CV" target="_blank" class="card">
                     <div class="card-barra">
                         <div class="barra__circle"></div>
@@ -140,6 +141,7 @@
                         </ul>
                     </div>
                 </a>
+
                 <a href="https://github.com/DanielHernandezTalla/AntojitosMexicanos" class="card" target="_blank">
                     <div class="card-barra">
                         <div class="barra__circle"></div>
@@ -161,7 +163,9 @@
                         </ul>
                     </div>
                 </a>
-                <a href="https://github.com/DanielHernandezTalla/FirstClassNavojoa" class="card" target="_blank">
+
+                <a href="SistemaFirstClass.html" class="card">
+                    <!-- https://github.com/DanielHernandezTalla/FirstClassNavojoa -->
                     <div class="card-barra">
                         <div class="barra__circle"></div>
                         <h3 class="barra__title">Sistema Fisrt Class</h3>
@@ -183,11 +187,12 @@
                         </ul>
                     </div>
                 </a>
+
             </section>
         </section>
 
         <!-- Section of contact -->
-        <section id="contact" class="section contact">
+        <section id="contact" class="section contact" data-scroll-spy>
             <h2 class="section__h2">Contacto</h2>
             <!-- My contact details -->
             <section class="contact-data">
