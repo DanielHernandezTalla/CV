@@ -18,7 +18,7 @@ export default function scrollSpy(){
     }
 
     const observer = new IntersectionObserver(cb, {
-        threshold: [.6]
+        threshold: [.7]
     })
 
     $sections.forEach(el => observer.observe(el))
