@@ -289,6 +289,7 @@ h3 {
     align-items: flex-start;
     flex-direction: column;
     padding: 1rem;
+    padding-top: 128px;
 }
 
 .section-sm {
@@ -383,6 +384,11 @@ h3 {
     .g-sm{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .g-md{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 @media(min-width: 1024px) {
@@ -391,6 +397,10 @@ h3 {
     }
 
     .g-sm{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .g-md{
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -814,6 +824,8 @@ h3 {
     position: absolute;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
     padding: 16px;
     background-color: #fff9;
     transform: translateY(100%);
